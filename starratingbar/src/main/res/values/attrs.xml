@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StarRatingBar">
+        <attr name="defaultStar" format="reference"/>
+        <attr name="star" format="reference"/>
+        <attr name="defaultStarColor" format="color"/>
+        <attr name="starColor" format="color"/>
+        <attr name="starNum" format="integer"/>
+        <attr name="starStep" format="float"/>
+        <attr name="starGap" format="dimension"/>
+        <attr name="starSize" format="dimension"/>
+        <attr name="rating" format="float"/>
+        <attr name="isIndicator" format="boolean"/>
+    </declare-styleable>
+</resources>

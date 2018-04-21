@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:paddingLeft="24dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制的星星样式："/>
+    <com.sxu.starratingbar.StarRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:defaultStarColor="#c8e6c9"
+        app:starColor="#69f0ae"
+        app:starSize="40dp"/>
+
+    <com.sxu.starratingbar.StarRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:defaultStarColor="#e1f5fe"
+        app:starColor="#82b1ff"
+        app:starSize="32dp"
+        app:starGap="10dp"/>
+
+    <com.sxu.starratingbar.StarRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:defaultStarColor="#e0f7fa"
+        app:starColor="#4dd0e1"
+        app:starSize="24dp"
+        app:starGap="8dp"/>
+
+    <com.sxu.starratingbar.StarRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:defaultStarColor="#cfd8dc"
+        app:starColor="#455a64"
+        app:starSize="16dp"
+        app:starGap="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="使用图片的星星样式："/>
+    <com.sxu.starratingbar.StarRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:defaultStar="@mipmap/star_unselected_icon"
+        app:star="@mipmap/star_selected_icon"
+        app:starSize="24dp"
+        app:starGap="6dp"/>
+</LinearLayout>
